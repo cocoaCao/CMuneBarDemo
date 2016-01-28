@@ -4,7 +4,10 @@
 
 1.导入头文件 #import "CMuneBar.h"
 
-2.创建CMuneBar *muneBar = [[CMuneBar alloc] initWithItems:@[@"gallery",@"dropbox",@"camera",@"draw"] size:CGSizeMake(50, 50) type:kMuneBarTypeRadLeft];
+2.创建
+
+CMuneBar *muneBar = [[CMuneBar alloc] initWithItems:@[@"gallery",@"dropbox",@"camera",@"draw"] size:CGSizeMake(50, 50) type:kMuneBarTypeRadLeft];
+
 
 3.设置代理muneBar.delegate = self;
 
@@ -12,12 +15,13 @@
 
 
 在这里我提供了十种样式
-typedef NS_OPTIONS(NSUInteger, MuneBarType){
+
+
+typedef NS_OPTIONS(NSUInteger, MuneBarType)
+{
 
     kMuneBarTypeRadLeft = 0,
-    
     kMuneBarTypeRadRight,
-    
     kMuneBarTypeLineTop,
     kMuneBarTypeLineBottom,
     kMuneBarTypeLineLeft,
