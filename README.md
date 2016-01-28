@@ -35,5 +35,7 @@
 `    kMuneBarTypeRoundRight,`<br>
 `};`
 
-具体演示效果看这；
+具体演示效果看这：
+
+![](https://github.com/CaoWeikang/CMuneBarDemo/blob/master/%E6%BC%94%E7%A4%BA.gif)
 
