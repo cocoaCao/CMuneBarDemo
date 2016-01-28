@@ -34,6 +34,8 @@
     self.muneBar = muneBar;
 }
 
+
+
 -(void)didClicksegmentedControlAction:(UISegmentedControl *)segmentedControl{
     if (self.muneBar.isShow) {
         [self.muneBar hideItems];
