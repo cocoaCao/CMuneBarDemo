@@ -23,16 +23,16 @@
 在这里我提供了十种样式
 
 `typedef NS_OPTIONS(NSUInteger, MuneBarType){`
-`     kMuneBarTypeRadLeft = 0,`
-`     kMuneBarTypeRadRight,`
-`     kMuneBarTypeLineTop,`
-`     kMuneBarTypeLineBottom,`
-`     kMuneBarTypeLineLeft,`
-`     kMuneBarTypeLineRight,`
-`     kMuneBarTypeRoundTop,`
-`     kMuneBarTypeRoundBottom,`
-`     kMuneBarTypeRoundLeft,`
-`    kMuneBarTypeRoundRight,`
+`     kMuneBarTypeRadLeft = 0,`<br>
+`     kMuneBarTypeRadRight,`<br>
+`     kMuneBarTypeLineTop,`<br>
+`     kMuneBarTypeLineBottom,`<br>
+`     kMuneBarTypeLineLeft,`<br>
+`     kMuneBarTypeLineRight,`<br>
+`     kMuneBarTypeRoundTop,`<br>
+`     kMuneBarTypeRoundBottom,`<br>
+`     kMuneBarTypeRoundLeft,`<br>
+`    kMuneBarTypeRoundRight,`<br>
 `};`
 
 具体演示效果看这；
