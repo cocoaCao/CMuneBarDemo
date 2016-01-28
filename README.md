@@ -15,21 +15,19 @@ CMuneBar *muneBar = [[CMuneBar alloc] initWithItems:@[@"gallery",@"dropbox",@"ca
 
 
 在这里我提供了十种样式
+`typedef NS_OPTIONS(NSUInteger, MuneBarType){
 
-
-typedef NS_OPTIONS(NSUInteger, MuneBarType)
-{
-
-    kMuneBarTypeRadLeft = 0,
-    kMuneBarTypeRadRight,
-    kMuneBarTypeLineTop,
-    kMuneBarTypeLineBottom,
-    kMuneBarTypeLineLeft,
-    kMuneBarTypeLineRight,
-    kMuneBarTypeRoundTop,
-    kMuneBarTypeRoundBottom,
-    kMuneBarTypeRoundLeft,
+     kMuneBarTypeRadLeft = 0,
+     kMuneBarTypeRadRight,
+     kMuneBarTypeLineTop,
+     kMuneBarTypeLineBottom,
+     kMuneBarTypeLineLeft,
+     kMuneBarTypeLineRight,
+     kMuneBarTypeRoundTop,
+     kMuneBarTypeRoundBottom,
+     kMuneBarTypeRoundLeft,
     kMuneBarTypeRoundRight,
-};
+`};
+
 具体演示效果看这；
 
