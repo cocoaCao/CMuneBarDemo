@@ -38,6 +38,9 @@ typedef NS_OPTIONS(NSUInteger, MuneBarType){
 
 @property(nonatomic,strong)NSArray *itemsImages;
 
+@property(nonatomic,strong)NSArray *itemsHeighightedImages;
+
+
 @property(nonatomic,weak)id <CMuneBarDelegate> delegate;
 
 @property(nonatomic,assign)MuneBarType type;
@@ -53,7 +56,7 @@ typedef NS_OPTIONS(NSUInteger, MuneBarType){
  *
  *  @return 
  */
--(instancetype)initWithItems:(NSArray *)itemsImages size:(CGSize)size type:(MuneBarType)type;
+-(instancetype)initWithItems:(NSArray *)itemsImages itemsHeighightedImages:(NSArray *)itemsHeighightedImages size:(CGSize)size type:(MuneBarType)type;
 /**
  *  显示菜单
  */

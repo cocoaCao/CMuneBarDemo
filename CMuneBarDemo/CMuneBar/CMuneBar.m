@@ -25,10 +25,11 @@
 
 @implementation CMuneBar
 
--(instancetype)initWithItems:(NSArray *)itemsImages size:(CGSize)size type:(MuneBarType)type{
+-(instancetype)initWithItems:(NSArray *)itemsImages itemsHeighightedImages:(NSArray *)itemsHeighightedImages size:(CGSize)size type:(MuneBarType)type{
     self = [super init];
     if (self) {
         self.itemsImages = itemsImages;
+        self.itemsHeighightedImages = itemsHeighightedImages;
         self.isShow = NO;
         self.type = type;
         self.frame = CGRectMake(0, 0, size.width, size.height);
@@ -109,7 +110,9 @@
         NSMutableArray *items = [NSMutableArray arrayWithCapacity:self.itemsImages.count];
         for (int i = 0; i < self.itemsImages.count; i++) {
             UIImage *image = [UIImage imageNamed:self.itemsImages[i]];
-            CMuneItem *item = [CMuneItem muneItemWithSize:CGSizeMake(self.frame.size.width, self.frame.size.height) image:image heightImage:nil target:self action:@selector(tapItem:)];
+            UIImage *heighlightImage = [UIImage imageNamed:self.itemsHeighightedImages[i]];
+
+            CMuneItem *item = [CMuneItem muneItemWithSize:CGSizeMake(self.frame.size.width, self.frame.size.height) image:image heightImage:heighlightImage target:self action:@selector(tapItem:)];
             item.tag = 100 + i;
             item.center = self.mainButton.center;
             [self addSubview:item];

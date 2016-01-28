@@ -27,7 +27,7 @@
     segmentedControl.selectedSegmentIndex = 0;
     [self.view addSubview:segmentedControl];
     
-    CMuneBar *muneBar = [[CMuneBar alloc] initWithItems:@[@"gallery",@"dropbox",@"camera",@"draw"] size:CGSizeMake(50, 50) type:kMuneBarTypeRadLeft];
+    CMuneBar *muneBar = [[CMuneBar alloc] initWithItems:@[@"gallery",@"dropbox",@"camera",@"draw"] itemsHeighightedImages:@[@"gallery",@"dropbox",@"camera",@"draw"] size:CGSizeMake(50, 50) type:kMuneBarTypeRadLeft];
     muneBar.delegate = self;
     muneBar.center = CGPointMake(150, 480);
     [self.view addSubview:muneBar];
