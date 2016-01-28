@@ -12,7 +12,6 @@
 
 
 在这里我提供了十种样式
-
 typedef NS_OPTIONS(NSUInteger, MuneBarType){
     kMuneBarTypeRadLeft = 0,
     kMuneBarTypeRadRight,
