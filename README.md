@@ -1,5 +1,5 @@
-
-欢迎小伙伴加Q（1170797951）交流
+# CMuneBarDemo
+欢迎小伙伴加Q（1170797951）交流<br>
 Email:1170797951@qq.com
 
 
@@ -41,5 +41,6 @@ Email:1170797951@qq.com
 
 具体演示效果看这：
 
-![](https://github.com/CaoWeikang/CMuneBarDemo/blob/master/%E6%BC%94%E7%A4%BA.gif)
-
+![](https://github.com/CaoWeikang/CMuneBarDemo/blob/master/%E6%BC%94%E7%A4%BA.gif)<br>
+欢迎小伙伴加Q（1170797951）交流<br>
+Email:1170797951@qq.com
